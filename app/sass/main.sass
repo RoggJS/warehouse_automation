@@ -1,0 +1,34 @@
+@import vars
+@import fonts
+@import libs
+
+::placeholder
+    font-weight: 500
+    font-size: 24px
+    color: #929292
+::selection
+    background-color: $accent
+    color: #ffffff
+
+input, textarea, select
+    outline: none
+    color: #bcbcbc
+
+    &:required:valid
+        border-color: #07807e
+
+body
+    font-size: 20px
+    min-width: 360px
+    position: relative
+    line-height: 1.3
+    font-family: 'Roboto', sans-serif
+    font-weight: 400
+    overflow-x: hidden
+    color: $text
+.position-relative
+    position: relative
+
+
+
+@import "media"
