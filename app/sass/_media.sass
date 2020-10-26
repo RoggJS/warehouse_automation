@@ -5,16 +5,126 @@
 
 // ≥1200px
 +media-breakpoint-down(lg)
+    .header-menu__list .header-menu__item
+        margin-right: 15px
+        margin-left: 15px
+    .header-section
+        min-height: 600px
+        background: url(../img/header-bck.jpg) no-repeat center bottom / cover
+    .header-banner__scroller
+        margin-top: 60px
 
+    .price-card__price
+        color: #2d4b7e
+        font-style: normal
+        font-weight: 700
+        font-size: 32px
+    .another-card__image
+        display: block
+        margin: 20px auto 0
+    .footer-list li a
+        font-family: 'Roboto Condensed',sans-serif
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 19px
+        color: #cdd2ff
+        margin-right: 20px
 // ≥992px
 +media-breakpoint-down(md)
+    .header-menu
+        display: block
+    .header-menu__list
+        flex-direction: column
+        align-items: flex-start
+        justify-content: center
+        display: none
+        position: absolute
+        width: 100%
+        padding: 5px 15px
+        top: 60px
+    .header-menu__submenu
+        position: static
+    .header-menu__list .header-menu__item
+        margin: 10px  10px 10px 0
+    .menu__icon
+        display: block
+    .header-banner
+        padding-top: 144px
+    .header-banner__title
+        font-size: 24px
+    .header-banner__subtitle
+        font-size: 42px
+    .menu__icon
+        right: 0
+    .service-card__icon
+        margin: 10px auto 20px
+    .services-section
+        background: #F3F6FA
+        padding-top: 40px
+        padding-bottom: 40px
+    .set-section
+        padding-bottom: 40px
+    .service-button-row
+        margin-top: 40px
+    .choose-section
+        padding: 40px 0
+    .price-section
+        padding-bottom: 50px
+    .gallery-section
+        padding-bottom: 50px
+    .footer-row
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+    .footer-list
+        padding: 40px 0
 
 // ≥768px
 +media-breakpoint-down(sm)
+    .header-banner__subtitle
+        font-size: 38px
+    .header-banner
+        padding-top: 120px
+    .section-title
+        text-align: center
+        font-size: 21px
+        & img
+            margin: 0 auto 15px
+    .custom-link
+        margin: 40px auto 10px
+    .another-card__title
+        margin: 20px auto 0
+        font-size: 21px
+    .another-card-button
+        margin: 20px auto 0
+    .another-card
+        padding: 15px
+
 
 // ≥576px
 +media-breakpoint-down(xs)
-
+    .header-banner__title
+        font-size: 19px
+    .header-banner__subtitle
+        font-size: 36px
+    .header-banner__scroller img
+        display: block
+        margin-right: 15px
+    .header-banner__scroller
+        font-size: 14px
+    .another-card__image
+        display: block
+        margin: 5px auto 0
+    .footer__logo--description
+        font-family: Roboto,sans-serif
+        font-style: normal
+        font-weight: 300
+        font-size: 12px
+        color: #cdd2ff
+        bottom: -2px
+        position: relative
+        margin-left: 13px
 /*==========  Mobile First  ==========*/
 
 // ≤576px
